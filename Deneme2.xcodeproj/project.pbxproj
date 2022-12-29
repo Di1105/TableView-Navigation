@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		C68ADC2C295D86D2004150E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC2B295D86D2004150E0 /* AppDelegate.swift */; };
 		C68ADC2E295D86D2004150E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC2D295D86D2004150E0 /* SceneDelegate.swift */; };
-		C68ADC30295D86D2004150E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC2F295D86D2004150E0 /* ViewController.swift */; };
+		C68ADC30295D86D2004150E0 /* InviteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC2F295D86D2004150E0 /* InviteVC.swift */; };
 		C68ADC33295D86D2004150E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68ADC31295D86D2004150E0 /* Main.storyboard */; };
 		C68ADC35295D86D6004150E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68ADC34295D86D6004150E0 /* Assets.xcassets */; };
 		C68ADC38295D86D6004150E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68ADC36295D86D6004150E0 /* LaunchScreen.storyboard */; };
+		C68ADC40295D8719004150E0 /* InviteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC3F295D8719004150E0 /* InviteCell.swift */; };
+		C68ADC43295D8779004150E0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C68ADC42295D8779004150E0 /* SnapKit */; };
+		C68ADC70295DC758004150E0 /* NewViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC6F295DC758004150E0 /* NewViewController1.swift */; };
+		C68ADC72295DC77C004150E0 /* NewViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC71295DC77C004150E0 /* NewViewController2.swift */; };
+		C68ADC74295DC79A004150E0 /* NewViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC73295DC79A004150E0 /* NewViewController3.swift */; };
+		C68ADC76295DC7AB004150E0 /* NewViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68ADC75295DC7AB004150E0 /* NewViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C68ADC28295D86D2004150E0 /* Deneme2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deneme2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68ADC2B295D86D2004150E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C68ADC2D295D86D2004150E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C68ADC2F295D86D2004150E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C68ADC2F295D86D2004150E0 /* InviteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteVC.swift; sourceTree = "<group>"; };
 		C68ADC32295D86D2004150E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C68ADC34295D86D6004150E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68ADC37295D86D6004150E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C68ADC39295D86D6004150E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68ADC3F295D8719004150E0 /* InviteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCell.swift; sourceTree = "<group>"; };
+		C68ADC6F295DC758004150E0 /* NewViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController1.swift; sourceTree = "<group>"; };
+		C68ADC71295DC77C004150E0 /* NewViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController2.swift; sourceTree = "<group>"; };
+		C68ADC73295DC79A004150E0 /* NewViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController3.swift; sourceTree = "<group>"; };
+		C68ADC75295DC7AB004150E0 /* NewViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68ADC43295D8779004150E0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +70,12 @@
 			children = (
 				C68ADC2B295D86D2004150E0 /* AppDelegate.swift */,
 				C68ADC2D295D86D2004150E0 /* SceneDelegate.swift */,
-				C68ADC2F295D86D2004150E0 /* ViewController.swift */,
+				C68ADC2F295D86D2004150E0 /* InviteVC.swift */,
+				C68ADC75295DC7AB004150E0 /* NewViewController4.swift */,
+				C68ADC73295DC79A004150E0 /* NewViewController3.swift */,
+				C68ADC71295DC77C004150E0 /* NewViewController2.swift */,
+				C68ADC6F295DC758004150E0 /* NewViewController1.swift */,
+				C68ADC3F295D8719004150E0 /* InviteCell.swift */,
 				C68ADC31295D86D2004150E0 /* Main.storyboard */,
 				C68ADC34295D86D6004150E0 /* Assets.xcassets */,
 				C68ADC36295D86D6004150E0 /* LaunchScreen.storyboard */,
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = Deneme2;
+			packageProductDependencies = (
+				C68ADC42295D8779004150E0 /* SnapKit */,
+			);
 			productName = Deneme2;
 			productReference = C68ADC28295D86D2004150E0 /* Deneme2.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = C68ADC1F295D86D2004150E0;
+			packageReferences = (
+				C68ADC41295D8779004150E0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C68ADC29295D86D2004150E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68ADC30295D86D2004150E0 /* ViewController.swift in Sources */,
+				C68ADC76295DC7AB004150E0 /* NewViewController4.swift in Sources */,
+				C68ADC74295DC79A004150E0 /* NewViewController3.swift in Sources */,
+				C68ADC30295D86D2004150E0 /* InviteVC.swift in Sources */,
+				C68ADC70295DC758004150E0 /* NewViewController1.swift in Sources */,
 				C68ADC2C295D86D2004150E0 /* AppDelegate.swift in Sources */,
+				C68ADC40295D8719004150E0 /* InviteCell.swift in Sources */,
+				C68ADC72295DC77C004150E0 /* NewViewController2.swift in Sources */,
 				C68ADC2E295D86D2004150E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +386,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C68ADC41295D8779004150E0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C68ADC42295D8779004150E0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C68ADC41295D8779004150E0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C68ADC20295D86D2004150E0 /* Project object */;
 }
