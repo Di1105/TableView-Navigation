@@ -68,7 +68,7 @@ class InviteCell: UITableViewCell {
         }
         cellButton.setTitle("Invite", for: .normal)
         cellButton.tintColor = .white
-        cellButton.backgroundColor = .systemMint
+        cellButton.backgroundColor = UIColor.geyim
         cellButton.layer.cornerRadius = 15
         cellButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
 
@@ -76,4 +76,9 @@ class InviteCell: UITableViewCell {
     @objc func buttonTapped(){
         
     }
+}
+
+extension UIColor {
+    
+    static let geyim = UIColor(red: 59/255, green: 183/255, blue: 125/255, alpha: 1)
 }

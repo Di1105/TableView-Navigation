@@ -15,12 +15,12 @@ class InviteVC: UIViewController {
     lazy var labelnumber = UILabel()
     lazy var inviteButton = UIButton()
     
-    private var arrayVC: [UIViewController] = [NewViewController1(),NewViewController2(),NewViewController3(),NewViewController4(),]
+    private var arrayVC: [UIViewController] = [NewViewController1(),NewViewController2(),NewViewController3(),NewViewController4(),NewViewController1(),NewViewController2(),NewViewController3(),NewViewController4(),NewViewController1(),NewViewController2(),NewViewController3(),NewViewController4()]
 
     
     var arrayImages: [UIImage] = []
-    var arrayFriend: [String] = ["James Lawson","Laura Octavian","Jhonson Bridge","Griffin Rod"]
-    var arrayTel: [String] = ["+1-300-555-0133","+1-302-555-0133","+1-300-554-0143","+1-304-544-0133"]
+    var arrayFriend: [String] = ["James Lawson","Laura Octavian","Jhonson Bridge","Griffin Rod","James Lawson","Laura Octavian","Jhonson Bridge","Griffin Rod","James Lawson","Laura Octavian","Jhonson Bridge","Griffin Rod"]
+    var arrayTel: [String] = ["+1-300-555-0133","+1-302-555-0133","+1-300-554-0143","+1-304-544-0133","+1-300-555-0133","+1-302-555-0133","+1-300-554-0143","+1-304-544-0133","+1-300-555-0133","+1-302-555-0133","+1-300-554-0143","+1-304-544-0133"]
     
     struct CellInvite {
         static let rowCell = "Cell"
@@ -43,7 +43,14 @@ class InviteVC: UIViewController {
         arrayImages.append(UIImage(named: "pic2")!)
         arrayImages.append(UIImage(named: "pic3")!)
         arrayImages.append(UIImage(named: "pic4")!)
-
+        arrayImages.append(UIImage(named: "pic1")!)
+        arrayImages.append(UIImage(named: "pic2")!)
+        arrayImages.append(UIImage(named: "pic3")!)
+        arrayImages.append(UIImage(named: "pic4")!)
+        arrayImages.append(UIImage(named: "pic1")!)
+        arrayImages.append(UIImage(named: "pic2")!)
+        arrayImages.append(UIImage(named: "pic3")!)
+        arrayImages.append(UIImage(named: "pic4")!)
         
         lazy var backButton = UIButton()
         backButton.setImage(UIImage(named: "Left"), for: .normal)
